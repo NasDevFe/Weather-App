@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+html{
     background: url("https://media.istockphoto.com/photos/weather-forecast-picture-id477110708?b=1&k=20&m=477110708&s=170667a&w=0&h=RFXa1v6UAFt5kObR1fGY0yi33ouNmobCYNJlXH6vr6I=") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
