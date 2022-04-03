@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background: #448aff;
+    background: url("https://media.istockphoto.com/photos/weather-forecast-picture-id477110708?b=1&k=20&m=477110708&s=170667a&w=0&h=RFXa1v6UAFt5kObR1fGY0yi33ouNmobCYNJlXH6vr6I=") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background: #448aff; */
 }
+
 h1{
     text-align: center;
     margin-top: 25px;
@@ -22,6 +28,7 @@ h1{
     width: 410px;
     margin: 50px auto;
     padding: 10px;
+    
    }
 
 .inputs {
@@ -102,7 +109,7 @@ h1{
 
   .wrapper p span{
     color: #90006e;
-    font-size: 25px;
+    font-size: 26px;
   }
 
   /* //CSS Media Queries// */
@@ -141,4 +148,5 @@ h1{
             margin: 40px auto;
             border-radius: 2px;
         }
+
     }

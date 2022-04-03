@@ -35,6 +35,6 @@ description.innerHTML = `Sky Conditions: <span>${descrip}<span>`
 wind.innerHTML = `Wind Speed: <span>${wndspd} km/h<span>`
 })
 //Now the condition must be added that what if you do not input anything in the input box.
-.catch(err => alert('You entered Wrong city name'))
+.catch(err => alert('You Have Entered Wrong city name'))
 })
 //If you click on the submit button without inputting anything in the input box or typing the wrong city name then the above text can be seen.
