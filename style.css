@@ -11,8 +11,13 @@ h1{
     margin-top: 25px;
     color: white;
     text-shadow: 5px 5px gray;
-
 }
+
+.heading{
+    display: grid;
+    place-content: center center;
+}
+
 .container-fluid{
     width: 410px;
     margin: 50px auto;
@@ -72,7 +77,6 @@ h1{
     height: 45vh;
     margin: 50px auto;
     border-radius: 2px;
-    
 }
 
 .wrapper h2{
@@ -82,6 +86,7 @@ h1{
     color: white;
     font-family: sans-serif;
   }
+
   .wrapper p{
     margin:20px 50px;
     margin-right: 20px;
@@ -100,35 +105,34 @@ h1{
     font-size: 25px;
   }
 
+  /* //CSS Media Queries// */
 
-
-  //CSS Media Queries//
-
-  @media only screen and (min-width: 200px) and (max-width: 767px)  {
+  @media only screen and (min-width: 320px) and (max-width: 767px)  {
+    
         .container-fluid{
-            width: 300px;
+            width: 280px;
             margin: 30px auto;
             padding: 6px;
            }
 
         .inputs input[type="text"] {
             height: 2.2rem;
-            width: 10rem;
-            font-size: 0.85rem;
+            width: 8rem;
+            font-size: 0.70rem;
             padding: 6px;
+            margin-top: 10px;
             margin-right:2.5px ;
         }
 
         .inputs input[type="submit"] {
-            height: 2.25rem;
-            width: 5rem;
+            height: 2rem;
+            width: 6rem;
             font-size: 0.85rem;
-            margin-top: 10px;
-            border-radius: 2px;
+            margin-top: 7px;
         }
 
         .display {
-            width: 300px;
+            width: 280px;
         }
 
         .wrapper {
