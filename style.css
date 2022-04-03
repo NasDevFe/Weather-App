@@ -6,7 +6,13 @@
 body{
     background: #448aff;
 }
+h1{
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    text-shadow: 5px 5px gray;
 
+}
 .container-fluid{
     width: 410px;
     margin: 50px auto;
@@ -26,7 +32,6 @@ body{
     background: #212121;
     font-weight: bold;
     font-size: 1.1rem;
-    text-transform: capitalize;
     padding: 10px;
     border: none;
     outline: none;
@@ -53,7 +58,7 @@ body{
     background-color: green;
 }
 
-//second display//
+/* //second display// */
 
 .display {
     text-align: center;
@@ -67,6 +72,7 @@ body{
     height: 45vh;
     margin: 50px auto;
     border-radius: 2px;
+    
 }
 
 .wrapper h2{
@@ -93,3 +99,42 @@ body{
     color: #90006e;
     font-size: 25px;
   }
+
+
+
+  //CSS Media Queries//
+
+  @media only screen and (min-width: 200px) and (max-width: 767px)  {
+        .container-fluid{
+            width: 300px;
+            margin: 30px auto;
+            padding: 6px;
+           }
+
+        .inputs input[type="text"] {
+            height: 2.2rem;
+            width: 10rem;
+            font-size: 0.85rem;
+            padding: 6px;
+            margin-right:2.5px ;
+        }
+
+        .inputs input[type="submit"] {
+            height: 2.25rem;
+            width: 5rem;
+            font-size: 0.85rem;
+            margin-top: 10px;
+            border-radius: 2px;
+        }
+
+        .display {
+            width: 300px;
+        }
+
+        .wrapper {
+            margin: 0 9rem;
+            height: 30vh;
+            margin: 40px auto;
+            border-radius: 2px;
+        }
+    }
